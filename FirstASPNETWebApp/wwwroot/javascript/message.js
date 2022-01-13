@@ -9,7 +9,7 @@
 
     let grade = 0;
 
-    grade = (class1) + (class2) + (class3) + (class4) + (class5)
+    grade = (class1) + (class2) + (class3) + (class4) + (class5) + "test"
 
 
 
