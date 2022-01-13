@@ -7,13 +7,13 @@
     let class4 = $("#class4").val();
     let class5 = $("#class5").val();
 
+    // create variable to store grade
     let grade = 0;
 
-    grade = (class1) + (class2) + (class3) + (class4) + (class5) + "test"
+    // calculate numeric grade
+    grade = ((parseFloat((class1 * 0.55).toFixed(2)) + parseFloat((class2 * 0.05).toFixed(2)) + parseFloat((class3 * 0.1).toFixed(2)) + parseFloat((class4 * 0.2).toFixed(2)) + parseFloat((class5 * 0.1).toFixed(2))).toFixed(2)).toString();
 
-
-
-    // determines letter grade based on numeric grade
+    // determines letter grade based on calculated numeric grade
     if (grade >= 94) {
         letterGrade = "A"
     } else if (grade >= 90) {
@@ -41,5 +41,5 @@
     }
 
     // prints both numeric and letter grade back to user via alert
-    alert("Your grade is " + grade.toString() + "% (" + letterGrade + ")")
+    alert("Your grade is  " + grade.toString() + "% (" + letterGrade + ")")
 })

@@ -1,8 +1,25 @@
 ﻿body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 25px;
 }
 
 label {
     width: 125px;
     display: inline-block;
+}
+
+p {
+    width: 900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.picture {
+    padding-left: 165px;
 }

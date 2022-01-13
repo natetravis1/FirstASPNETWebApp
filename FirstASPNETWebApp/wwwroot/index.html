@@ -2,27 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <!-- project title and links to css -->
     <title>Nate Travis</title>
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Welcome to my site!</h1>
+    <!-- welcome message and my name -->
+    <br /><h1 class="heading">Welcome to my site!</h1>
+    <br /><h1 class="heading">I'm Nate Travis</h1><br />
 
-    <h1>Nathanael Travis</h1>
-    <img src="images/natefootball.jpg" />
+    <!-- image of my wife and I at a BYU game-->
+    <img src="images/natefootball.jpg" class="picture"/>
 
-    <p>Nate is an IS student hoping to continue on into the MISM next year. He hopes to get a good understanding of C# from IS 413 and also hopes to leave with a good grade from the class. He also hopes to get a better grasp on JQuery from this class.</p>
+    <!-- paragraph about IS 413 -->
+    <p>Nate is an IS student hoping to continue on into the MISM next year. He hopes to get a good understanding of C# from IS 413 and also hopes to leave with a good grade from the class. He also hopes to get a better grasp on JQuery from this class. He also loves going to BYU football games with his wife (see picture above).</p>
 
-    <p>Nate's Dream jobs:</p>
+    <!-- my list of top 3 dream jobs -->
+    <br /><span>Nate's Dream jobs:</span>
     <ul>
         <li>Software Engineer</li>
         <li>Data Analyst</li>
         <li>Cybersecurity Consultant</li>
-    </ul>
+    </ul><br /><br />
 
-
+    <!-- grade calculator -->
     <h2>Calculate Your Grade:</h2>
+    <span>(Enter your grade out of 100 for each assignment)</span><br /><br />
     <form>
         <label>Assignments:</label>
         <input id="class1" /><br />
@@ -34,9 +40,11 @@
         <input id="class4" /><br />
         <label>INTEX</label>
         <input id="class5" /><br /><br />
-        <input id="calcButton" type="button" value="Calculate" />
+        <input id="calcButton" type="button" value="Calculate Grade" />
     </form>
+    <br /><br />
 
+    <!-- links to bootstrap, jquery, and my javascript file -->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery-3.6.0.min.js"></script>
     <script src="javascript/message.js"></script>
